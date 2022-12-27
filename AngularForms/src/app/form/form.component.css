@@ -1,0 +1,51 @@
+
+.main
+{
+  background-color: rgb(214, 160, 59) !important;
+  max-width: 650px;
+  min-height:600px;
+  text-align: center;
+}
+
+::ng-deep .mat-form-field-outline-start {
+  border-radius: 8px 0 0 8px !important;
+  min-width: 8px !important;
+  color: black !important;
+}
+
+::ng-deep .mat-form-field-outline-end {
+  border-radius: 0 8px 8px 0 !important;
+  color: black !important;
+}
+
+.title-div{
+  background-color: rgb(0, 0, 0);
+  color: aliceblue;
+  padding: 10px;
+  font-size: 25px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.name-field{
+  padding-top: 20px;
+  width: 250px;
+}
+
+.author-field{
+  width: 250px;
+}
+
+.input {
+color: black;
+  text-align: center;
+  width: 100%;
+}
+
+.button{
+  width: 250px;
+  height: 35px;
+text-align: center;
+  margin-top: 25px;
+  background-color: rgb(0, 0, 0);
+  color: aliceblue;
+}

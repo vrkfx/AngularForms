@@ -1,1 +1,36 @@
-<p>form works!</p>
+<div class="main">
+  <div class="title-div">
+    <h3>Angular Form Test</h3>
+  </div>
+
+  <div class="main-form-div">
+    <div class="input">
+      <mat-form-field appearance="standard" class="name-field">
+        <mat-label class="author-input">Book Name</mat-label>
+        <input
+          matInput
+          placeholder="Ex. Harry Potter and the Chamber of Secrects"
+          [ngModel]="BookName"
+          isRequired
+        />
+      </mat-form-field>
+    </div>
+
+    <div class="input">
+      <mat-form-field class="author-field" appearance="fill">
+        <mat-label>Author</mat-label>
+        <input matInput placeholder="Ex. J.K Rowlling" [ngModel]="Author" />
+      </mat-form-field>
+    </div>
+
+    <div>
+      <mat-checkbox> check me </mat-checkbox>
+    </div>
+
+    <div>
+      <button class="button"  extended>
+        Submit
+      </button>
+    </div>
+  </div>
+</div>

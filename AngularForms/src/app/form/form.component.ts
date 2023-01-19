@@ -18,4 +18,8 @@ export class FormComponent implements OnInit {
 
   }
 
+  public button(){
+    console.log("Button Clicked")
+  }
+
 }

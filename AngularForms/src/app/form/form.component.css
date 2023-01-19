@@ -1,4 +1,9 @@
-
+.center {
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+}
 .main
 {
   background-color: rgb(214, 160, 59) !important;
